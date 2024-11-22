@@ -57,5 +57,7 @@ Todo o código está disponivel no arquivo BikEnergy.cpp
 
 # Membros do Grupo:
 *Arthur Gomes* - RM: 560771
+
 *Matheus Siroma* - RM: 560248
+
 *Pedro Estevam* - RM: 560642
