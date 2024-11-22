@@ -1,4 +1,4 @@
-#include <Servo.h>
+#include <Servo.h>    //Inclusão da biblioteca do ServoMotor
 
 int ledR = 13;      // LED Vermelho (Bike bloqueada)
 int ledG = 12;      // LED Verde (Bike liberada)
@@ -17,7 +17,7 @@ void setup() {
   myServo.attach(9);       // Conecta o servo no pino 9
   myServo.write(0);        // Inicia o servo em 0 graus (bloqueado)
 
-  Serial.begin(9600);
+  Serial.begin(9600);    //Inicia o painel Serial
 
   // Estado inicial
   digitalWrite(ledR, HIGH); // LED vermelho ligado
@@ -27,7 +27,7 @@ void setup() {
 }
 
 void loop() {
-  // Envia pulso no Trig
+  // Envia pulso do trigger
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
@@ -41,14 +41,14 @@ void loop() {
   // Verifica as condições para liberar ou bloquear a bike
   if (distance >= 5 && distance <= 50 && !bikeLiberada) {
     // Libera a bike
-    bikeLiberada = true;
+    bikeLiberada = true; //Altera o status para Liberada
     digitalWrite(ledR, LOW);  // Apaga o LED vermelho
     digitalWrite(ledG, HIGH); // Acende o LED verde
-    myServo.write(90);       // Move o servo para 180 graus (aberto)
+    myServo.write(90);       // Move o servo para 90 graus (aberto)
     Serial.println("Bike Liberada");
   } else if (distance > 50 && bikeLiberada) {
     // Bloqueia a bike
-    bikeLiberada = false;
+    bikeLiberada = false;    //Altera o status para Liberada
     digitalWrite(ledR, HIGH); // Acende o LED vermelho
     digitalWrite(ledG, LOW);  // Apaga o LED verde
     myServo.write(0);         // Move o servo para 0 graus (fechado)
