@@ -1,4 +1,5 @@
-# Sistema de Bloqueio e Desbloqueio *BikEnergy* - EDGE Global Solution
+# Sistema de Bloqueio e Desbloqueio *BikEnergy*
+# EDGE Global Solution
 
 Este projeto implementa um sistema de bloqueio e desbloqueio de bicicletas utilizando um sensor ultrassônico, LEDs e um servo motor. Ele foi desenvolvido para simular o controle de acesso a uma bicicleta tecnologica de maneira prática e eficiente.
 
