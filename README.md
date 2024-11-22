@@ -47,3 +47,11 @@ O sistema funciona da seguinte forma:
    - Calcula a distância medida pelo sensor ultrassônico.
    - Verifica se o objeto está dentro do alcance para desbloquear ou bloquear a bicicleta.
    - Atualiza o estado dos LEDs e a posição do servo motor conforme necessário.
+  
+Link para o modelo criado no Tinkercad: https://www.tinkercad.com/things/jSUBG5BIkk0-bikenergy-gs
+Todo o código está disponivel no arquivo BikEnergy.cpp
+
+# Membros do Grupo:
+*Arthur Gomes* - RM: 560771
+*Matheus Siroma* - RM: 560248
+*Pedro Estevam* - RM: 560642
