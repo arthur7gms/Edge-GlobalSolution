@@ -51,6 +51,8 @@ O sistema funciona da seguinte forma:
   
 Link para o modelo criado no Tinkercad: https://www.tinkercad.com/things/jSUBG5BIkk0-bikenergy-gs
 
+Vídeo Explicativo: https://youtu.be/CUQ26cRvUis
+
 Todo o código está disponivel no arquivo BikEnergy.cpp
 
 # Membros do Grupo:
