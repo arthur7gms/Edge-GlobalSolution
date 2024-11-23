@@ -27,7 +27,6 @@ O sistema funciona da seguinte forma:
 - Jumpers e protoboard.
 
 ### Software Necessário
-- Arduino IDE (versão 1.8.0 ou superior).
 - Biblioteca **Servo** (já incluída por padrão na IDE).
 
 ## 📦 Estrutura do Sistema
